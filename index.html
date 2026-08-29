@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GPS Damga Gizlilik Politikası</title>
-  <meta name="description" content="GPS Damga uygulamasının fotoğraf, konum, yerel depolama ve Google harita hizmetleriyle ilgili gizlilik politikası.">
+  <meta name="description" content="GPS Damga uygulamasının fotoğraf, konum, yerel depolama, Google harita ve reklam hizmetleriyle ilgili gizlilik politikası.">
   <link rel="canonical" href="https://ysn6161.github.io/gps-damga-privacy/">
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -37,7 +37,7 @@
       <h1>Fotoğraflarınız sizin denetiminizde kalır.</h1>
       <p class="lead">Bu politika, GPS Damga Android uygulamasının fotoğraf, konum ve teknik verileri nasıl işlediğini açıklar.</p>
       <div class="meta-row">
-        <span>Yürürlük: 28 Ağustos 2026</span>
+        <span>Yürürlük: 29 Ağustos 2026</span>
         <span>Paket: com.gpsdamga.app</span>
         <span>İlk test sürümü</span>
       </div>
@@ -49,7 +49,7 @@
         <li>Kullanıcı hesabı veya Albatros Development'a ait bir sunucu yoktur.</li>
         <li>Fotoğraflar, damga bilgileri ve uygulama kataloğu cihazda işlenir.</li>
         <li>Konum isteğe bağlıdır ve yalnız kullanıcı ilgili özelliği başlattığında kullanılır.</li>
-        <li>Bu ilk test sürümünde reklam, uygulama içi satın alma ve özel analiz sistemi yoktur.</li>
+        <li>Uygun içerik ekranlarında Google Mobile Ads banner reklamları gösterilebilir; uygulama içi satın alma ve Albatros Development'a ait özel analiz sistemi yoktur.</li>
         <li>Google Maps, Places ve Android konum hizmetleri çevrimiçi isteklerde bazı verileri işleyebilir.</li>
       </ul>
     </aside>
@@ -73,6 +73,9 @@
 
         <h3>Google hizmetlerinin işlediği teknik veriler</h3>
         <p>GPS Damga; Google Play services Location, Google Maps SDK for Android ve Places SDK for Android kullanır. Harita, adres veya yer araması kullandığınızda Google; hizmeti sunmak ve iyileştirmek için IP adresi, cihaz ve SDK metadata'sı, SDK'ya özgü takma adlı tanımlayıcılar, istek ve kullanım bilgileri, çökme tanıları, harita etkileşimleri ve kullanım biçimine bağlı olarak konum veya arama girdilerini işleyebilir. Bu işleme Google'ın kendi şartları ve gizlilik politikası kapsamındadır.</p>
+
+        <h3>Reklam ve onay verileri</h3>
+        <p>Uygun içerik ekranlarında banner reklam göstermek ve gizlilik tercihlerinizi yönetmek için Google Mobile Ads SDK ile Google User Messaging Platform (UMP) kullanılır. Bu hizmetler; IP adresinden çıkarılan yaklaşık konum, uygulama etkileşimleri, tanılama bilgileri, reklam kimliği, App Set ID ve benzeri cihaz veya hesap tanımlayıcılarını reklam sunumu, ölçüm, analiz, güvenlik ve sahtekârlığı önleme amaçlarıyla toplayabilir, kullanabilir ve Google ile paylaşabilir.</p>
       </section>
 
       <section>
@@ -82,9 +85,10 @@
           <li>kullanıcının seçimine göre tarih, saat, adres ve koordinat gösterme;</li>
           <li>harita ve yer arama özelliklerini çalıştırma;</li>
           <li>yerel galeri, klasör, şablon ve ayarları koruma;</li>
-          <li>hata durumlarında temel uygulama güvenilirliğini sağlama.</li>
+          <li>hata durumlarında temel uygulama güvenilirliğini sağlama;</li>
+          <li>uygun ekranlarda reklam sunma, reklam performansını ölçme ve sahtekârlığı önleme.</li>
         </ul>
-        <p>Fotoğraf veya konum verileri reklam, pazarlama profili ya da Albatros Development'a ait ürün analitiği için kullanılmaz.</p>
+        <p>GPS koordinatlarınız, yazdığınız adres, fotoğraflarınız ve EXIF içeriğiniz reklam isteğine eklenmez ve reklam hedeflemesi için kullanılmaz. Google reklam hizmetleri IP adresinden yaklaşık konum çıkarabilir.</p>
       </section>
 
       <section>
@@ -103,8 +107,10 @@
           <li><a href="https://maps.google.com/help/terms_maps/" rel="external">Google Maps / Google Earth Ek Hizmet Şartları</a></li>
           <li><a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure" rel="external">Maps SDK veri açıklaması</a></li>
           <li><a href="https://developers.google.com/maps/documentation/places/android-sdk/play-data-disclosure" rel="external">Places SDK veri açıklaması</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" rel="external">Google reklam teknolojileri</a></li>
+          <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="external">Google Mobile Ads SDK veri açıklaması</a></li>
         </ul>
-        <p>Bu ilk test sürümünde başka bir geliştirici backend'i, reklam ağı veya özel analiz/çökme izleme sağlayıcısı bulunmaz.</p>
+        <p>Uygulamada Albatros Development'a ait bir backend veya özel analiz/çökme izleme sağlayıcısı bulunmaz. Reklam ve onay işlemleri Google Mobile Ads ile UMP üzerinden yürütülür.</p>
       </section>
 
       <section>
@@ -116,6 +122,7 @@
               <tr><td>Kamera</td><td>Uygulama içinden fotoğraf çekmek</td><td>Reddederseniz galeriden seçim çalışır</td></tr>
               <tr><td>Yaklaşık / kesin konum</td><td>Adres ve koordinat damgası hazırlamak</td><td>İsteğe bağlıdır; sistem ayarlarından geri alınabilir</td></tr>
               <tr><td>Android Fotoğraf Seçici</td><td>Yalnız seçtiğiniz fotoğrafa erişmek</td><td>Genel depolama izni istenmez</td></tr>
+              <tr><td>Reklam gizliliği tercihleri</td><td>Bölgenize ve mevcut mesajlara göre reklam onayını yönetmek</td><td>Gerekli olduğunda uygulama ayarlarındaki Gizlilik seçeneklerinden yeniden açılabilir</td></tr>
             </tbody>
           </table>
         </div>
@@ -123,12 +130,14 @@
 
       <section>
         <h2>7. Reklam, satın alma ve analiz</h2>
-        <p>Bu politika kapsamındaki ilk test sürümünde reklam gösterilmez, uygulama içi satın alma sunulmaz ve Albatros Development'a ait özel analiz sistemi kullanılmaz. Bu özelliklerden biri gelecekte eklenirse uygulama davranışı, bu politika ve Google Play Veri Güvenliği beyanı yayımlanmadan önce güncellenecektir.</p>
+        <p>GPS Damga, yalnız gerçek içerik bulunan galeri ana görünümünde, klasör içi listede ve gerçek proje listesinde tek bir alt uyarlanabilir Google Mobile Ads banner reklamı gösterebilir. Kamera, fotoğraf görüntüleyici, damga düzenleyici, harita, ayarlar, bakım, izin/form, hata, yükleme ve boş durum ekranları ile modal, drawer ve seçim durumlarında reklam isteği veya reklam alanı bulunmaz. Geçiş, açılış veya zorunlu video reklam kullanılmaz.</p>
+        <p>Uygulama her açılışta UMP üzerinden gerekli gizlilik durumunu denetler. Bölgenize ve Google'da yayımlanan gizlilik mesajlarına bağlı olarak kişiselleştirilmiş, kişiselleştirilmemiş veya sınırlı reklam sunulabilir. Gerekli olduğunda reklam tercihlerinize uygulamadaki Gizlilik seçeneklerinden yeniden erişebilirsiniz.</p>
+        <p>Uygulama içi satın alma, Pro ürünü veya Albatros Development'a ait özel bir kullanıcı davranışı analitiği bulunmaz. Google reklam hizmetlerinin reklam sunumu, ölçüm ve sahtekârlığı önleme amacıyla yaptığı işleme kendi şartları ve gizlilik politikası kapsamındadır.</p>
       </section>
 
       <section>
         <h2>8. Güvenlik</h2>
-        <p>Veri miktarını sınırlamak, yalnız gerekli izinleri istemek ve fotoğraf işleme ile katalog işlemlerini cihazda tutmak için makul teknik önlemler uygulanır. Google Maps ve Places SDK'larının ağ trafiği Google'ın açıklamasına göre aktarım sırasında HTTPS ile şifrelenir. Bununla birlikte hiçbir cihaz veya aktarım yöntemi mutlak güvenlik garantisi vermez.</p>
+        <p>Veri miktarını sınırlamak, yalnız gerekli izinleri istemek ve fotoğraf işleme ile katalog işlemlerini cihazda tutmak için makul teknik önlemler uygulanır. Google Maps, Places ve Mobile Ads SDK ağ trafiği aktarım sırasında şifrelenir. Bununla birlikte hiçbir cihaz veya aktarım yöntemi mutlak güvenlik garantisi vermez.</p>
       </section>
 
       <section>
